@@ -10,6 +10,9 @@ models:
     - name: mi_zip
       group: mi_zip_codes
       access: public
+    - name: pre_mi_zip
+      group: mi_zip_codes
+      access: public
       config:
         contract:
           enforced: true
