@@ -12,7 +12,7 @@ models:
       access: public
     - name: pre_mi_zip
       group: mi_zip_codes
-      access: public
+      access: protected
       config:
         contract:
           enforced: true
